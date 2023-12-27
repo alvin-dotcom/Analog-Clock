@@ -1,0 +1,36 @@
+#container{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(date.png) no-repeat, url(img.jpg) no-repeat;
+    background-size: 100% 100%;   
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.5%;
+    height: 24%;
+    top: 26%;
+    left: 48.2%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.2%;
+    height: 20%;
+    top: 29.8%;
+    left: 48.8%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 18%;
+    top: 31%;
+    left: 49.5%;
+    opacity: 0.8; 
+}
